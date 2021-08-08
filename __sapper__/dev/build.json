@@ -1,0 +1,82 @@
+{
+  "bundler": "rollup",
+  "shimport": "2.0.4",
+  "assets": {
+    "main": "client.fba68fc1.js"
+  },
+  "css": {
+    "main": [
+      "client-9891a1dc.css"
+    ]
+  },
+  "dependencies": {
+    "index.svelte": [
+      "index.dd5fb1f1.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-39716d32.css"
+    ],
+    "create_certificate/index.svelte": [
+      "index.bb5347de.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-c8c81f53.css"
+    ],
+    "create_template/index.svelte": [
+      "index.1a8a7880.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-4bf714b4.css"
+    ],
+    "certificates/index.svelte": [
+      "index.5592f64a.js",
+      "inject_styles.5607aec6.js",
+      "index-6192a94e.css"
+    ],
+    "certificate/[slug].svelte": [
+      "[slug].84760512.js",
+      "inject_styles.5607aec6.js",
+      "[slug]-dd13d435.css"
+    ],
+    "_utils/imageUpload.svelte": [
+      "index.1abe63e2.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-bd17026b.css"
+    ],
+    "_utils/dataUpload.svelte": [
+      "index.1abe63e2.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-bd17026b.css"
+    ],
+    "dashboard/index.svelte": [
+      "index.1abe63e2.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-bd17026b.css"
+    ],
+    "templates/index.svelte": [
+      "index.a4229f76.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-7fb19cac.css"
+    ],
+    "register/index.svelte": [
+      "index.16edac5f.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-39716d32.css"
+    ],
+    "about.svelte": [
+      "about.688e35b7.js",
+      "inject_styles.5607aec6.js"
+    ],
+    "login/index.svelte": [
+      "index.19528236.js",
+      "successkid.d53948a6.js",
+      "inject_styles.5607aec6.js",
+      "index-fcc7084c.css"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+var successkid = "/client/465898c830bb9d2c.jpg";
+
+export { successkid as s };
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3VjY2Vzc2tpZC5kNTM5NDhhNi5qcyIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL25vZGVfbW9kdWxlcy9pbWFnZXMvc3VjY2Vzc2tpZC5qcGciXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCIvY2xpZW50LzQ2NTg5OGM4MzBiYjlkMmMuanBnXCIiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsaUJBQWU7Ozs7In0=
