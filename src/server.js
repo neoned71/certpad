@@ -5,12 +5,12 @@ import compression from 'compression';
 import * as sapper from '@sapper/server';
 
 
-const { PORT, NODE_ENV } = process.env;
+let { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
-
+PORT = 16000
 
 const mongoose = require("mongoose");
-const MONGO_URI = "mongodb://127.0.0.1:27017/sapper_first";
+const MONGO_URI = "mongodb://127.0.0.1:27017/certpad";
 
 
 mongoose
@@ -57,7 +57,7 @@ app.use(passport.session());
 app.use(express.json());
 
 //sapper middleware
-app.use( sirv('static'),sapper.middleware({ session:(req,res)=>({user: JSON.stringify(req.user)}) }) );
+app.use(express.static('static'),sapper.middleware({ session:(req,res)=>({user: JSON.stringify(req.user)}) }) );
 
 
 

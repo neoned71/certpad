@@ -25,7 +25,8 @@
     "path": "^0.12.7",
     "polka": "next",
     "sirv": "^1.0.0",
-    "svelte-chroma-picker": "^1.1.1"
+    "svelte-chroma-picker": "^1.1.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

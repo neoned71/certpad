@@ -32,7 +32,15 @@ export async function handleSubmit(){
 	{
 		// const res= await fetch('login.json',{method:'get'});
 		const res = await fetch('register.json',{mode:'cors',method:'post',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password})});
-		console.log(res);
+		if(res.status==200)
+		{
+			location.href="/dashboard";
+		}
+		else
+		{
+			alert("registration failed");
+			console.log(res.text());
+		}
 	}
 }
 </script>
@@ -74,22 +82,16 @@ export async function handleSubmit(){
 <svelte:head>
 	<title>Sapper project template</title>
 </svelte:head>
-
-<h1>Great success!</h1>
-
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper! { user }</figcaption>
-</figure>
+<h1>Register for CERTPAD</h1>
 
 <form on:submit|preventDefault={handleSubmit} >
 
-	<input type="text" bind:value={email} name="email" />
-	<input type="password" bind:value={password} name="password" />
+	<input class="w3-input" type="text" bind:value={email} name="email" placeholder="Email Address"/>
+	<input class="w3-input" type="password" bind:value={password} name="password" placeholder="Password" />
 
-	<input type="submit">
+	<input class="w3-button w3-round w3-border" type="submit" value="Register now">
 
 </form>
+<hr>
 
-<!-- <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.{username} {password}</strong></p> -->
-<p>saasdad</p>
+Created by: <a href="https://neoned71.com">neoned71</a>
